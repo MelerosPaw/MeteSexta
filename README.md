@@ -1,9 +1,9 @@
-# MeteSexta
+# Mete Sexta
 Proyecto para ejemplificar un uso presto de Android Studio.
 
-# Pt. 1
+## Pt. 1
 
-## Atajos de teclado	
+### Atajos de teclado	
 	
 1. Cómo configurar un atajo de teclado
 1. Ctrl + Y: borrar línea
@@ -22,7 +22,7 @@ Proyecto para ejemplificar un uso presto de Android Studio.
 1. Crl + Alt + L: formatear código
 
 
-## Multicursor
+### Multicursor
 
 1. Ctrl + Cursor: moverse entre palabras
 1. Mayús: Selección
@@ -37,12 +37,12 @@ Proyecto para ejemplificar un uso presto de Android Studio.
 1. Selección, cortar y pegar con multicursor
 
 	
-## Live Templates -> Plantillas al vuelo
+### Live Templates -> Plantillas al vuelo
 
 1. Cómo crear una plantilla postDelayed()
 1. Ctrl + Alt + T: Surround With...
 1. Plantillas con más variables
 
-## Ejemplo práctico
+### Ejemplo práctico
 	
 1. ListActivity: uso de todo lo aprendido para trabajar con un RecyclerView.
