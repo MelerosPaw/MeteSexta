@@ -55,8 +55,6 @@ private fun completame(condition: Boolean) {
 
 
 
-
-
 // Ctrl + Q: ver definición funcional de un campo
 // D6. Consulta el KotlinDoc del método invocado
 private fun pasaDeMi() {
@@ -66,6 +64,11 @@ private fun pasaDeMi() {
 
 
 
+// Ctrl + P: ver tipado de un campo
+// D7. Consulta el tipo de entrada de los parámetros
+private fun consultaTipado() {
+    metodoConSuKotlinDocMaravilloso(1, 4)
+}
 
 
 
