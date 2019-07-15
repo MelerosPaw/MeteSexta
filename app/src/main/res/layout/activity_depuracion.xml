@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:text="Texto cambiante"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/depuracion__label__texto"
@@ -36,7 +36,7 @@
                 android:layout_marginTop="6dp"
                 android:gravity="center_horizontal"
                 android:text="Yo soy así y así seguiré,\nnunca cambiaré."
-                android:textSize="20sp" />
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -45,56 +45,56 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__dos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__tres"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__cuatro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__cinco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__seis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__siete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cambia texto" />
+            android:text="Cambia texto"/>
 
         <Button
             android:id="@+id/depuracion__button__aleatorio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Texto aleatorio" />
+            android:text="Texto aleatorio"/>
 
     </LinearLayout>
 

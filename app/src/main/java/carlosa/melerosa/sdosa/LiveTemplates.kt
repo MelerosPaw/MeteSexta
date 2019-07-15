@@ -1,10 +1,11 @@
 package carlosa.melerosa.sdosa
 
+import com.google.gson.annotations.SerializedName
+
 class LiveTemplates {
 
     // Live Templates
-    // F1. File -> Settings -> Live Templates y añade una plantilla al grupo
-    // "Kotlin" para ejecutar un código con retraso, indicando el contexto Kotlin.
+    // File -> Settings -> Live Templates
 
 
 
@@ -39,7 +40,7 @@ class LiveTemplates {
 
 
 
-
+    // F1. Añade una plantilla al grupo "Kotlin" para ejecutar un código con retraso, indicando el contexto Kotlin.
 
     //android.os.Handler().postDelayed({
     //
@@ -100,7 +101,7 @@ class LiveTemplates {
 
 
 
-    // "serializedName"
+    // "serializedName
     //@com.google.gson.annotations.SerializedName("$SERIALIZED_NAME$") var $VARIABLE_NAME$: $TYPE$
 
 

@@ -1,6 +1,8 @@
 package carlosa.melerosa.sdosa
 
-class Multicursor {
+import android.support.v7.app.AppCompatActivity
+
+class Multicursor: AppCompatActivity() {
 
     // Ctrl + Cursor: moverse entre palabras
     // A1. Muévete entre las palabras
@@ -34,17 +36,17 @@ class Multicursor {
 
 
     // Mayús + Fin: seleccionar hasta el final
-    // A4. Selecciona la línea desde el principio
-    val variable7: String = "Soy la variable 7"
-
-
-
-
-
-
     // Mayús + Inicio: seleccionar hasta el principio
+    // A4. Selecciona la línea desde el principio
     // A5. Selecciona la línea desde el final
+    val variable7: String = "Soy la variable 7"
     val variable8: String = "Soy la variable 8"
+
+
+
+
+
+
 
 
 
