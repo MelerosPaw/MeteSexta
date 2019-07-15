@@ -45,7 +45,7 @@ open class MyListActivity : AppCompatActivity() {
         animals.add(Animal("snake", "unknown", 6))
         animals.add(Animal("lizard", "unknown", 7))
         animals.add(Animal("hamster", "unknown", 8))
-        animals.add(Animal("bear", "unknown", 91))
+        animals.add(Animal("bear", "unknown", 9))
         animals.add(Animal("lion", "unknown", 10))
         animals.add(Animal("tiger", "unknown", 11))
         animals.add(Animal("horse", "unknown", 12))
