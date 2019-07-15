@@ -1,6 +1,8 @@
 package carlosa.melerosa.sdosa
 
+import android.content.Context
 import android.support.v7.app.AppCompatActivity
+import android.util.AttributeSet
 import android.widget.EditText
 import carlosa.melerosa.sdosa.atajosteclado.InterfazMaldita
 
@@ -47,6 +49,9 @@ fun podriaTenerUnWhen(valor: Enumerado) {
 // E3. Coloca el cursor sobre el nombre de la clase y pulsa Alt + Intro para implementar
 // los métodos de la interfaz
 class Implementacion(): InterfazMaldita {
+    override fun metodoMaldito() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
 }
 
@@ -61,7 +66,9 @@ class Implementacion(): InterfazMaldita {
 // Implementar Parcelable
 // E4. Coloca el cursor sobre el nombre de la clase e implementa Parcelable
 // E5. Coloca el cursor sobre el nombre de la clase padre y sobrescribe todos los constructores de la clase
-private class EditTextTachable: EditText {
+private class EditTextTachable @JvmOverloads constructor(
+    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : EditText(context, attrs, defStyleAttr) {
 
 
 
@@ -89,7 +96,7 @@ fun <F> AppCompatActivity.getFragment(tag: String): F? {
 
 
 
-fun funcionDe1Parametro(unParametro: String) {
+fun funcionDe1Parametro(unParametro: String, s: String) {
 
 }
 
@@ -107,7 +114,7 @@ fun yoCambioCosas() {
 
 
     // E9. Coloca el cursor sobre la función y cambia su tipo de retorno
-    val resultado: Double = funcionQueNoDevuelveNada()
+    val resultado: Unit = funcionQueNoDevuelveNada()
 }
 
 

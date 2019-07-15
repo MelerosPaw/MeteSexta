@@ -29,9 +29,9 @@
             app:layout_constraintTop_toBottomOf="@+id/main__button__depuracion"
             android:backgroundTint="@android:color/white"
             android:text="Go to activity list"
+            android:layout_marginTop="40dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"/>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".DepuracionActivity"/>
+        <activity android:name=".ejemplo1.MyListActivity"/>
     </application>
 
 </manifest>
