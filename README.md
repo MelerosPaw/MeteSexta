@@ -8,8 +8,8 @@ Proyecto para ejemplificar un uso presto de Android Studio.
 1. Cómo configurar un atajo de teclado
 1. Ctrl + Y: borrar línea
 1. Modificar los atajos
-1.  - "Clone caret above": Ctrl + Alt + ↑
-1.  - "Clone caret below": Ctrl + Alt + ↓
+    1. "Clone caret above": Ctrl + Alt + ↑
+    1. "Clone caret below": Ctrl + Alt + ↓
 1. Ctrl + Mayús + Alt + Arriba/Abajo: cambio siguiente, cambio anterior
 1. Ctrl + Alt + Clic/B: ir a implementación
 1. Ctrl + Mayús + E: archivos editados recientemente
