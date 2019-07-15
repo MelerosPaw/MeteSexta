@@ -34,7 +34,7 @@ Proyecto para ejemplificar un uso presto de Android Studio.
 1. Ctrl + Mayús + Inicio/Fin: seleccionar inicio hasta inicio o fin de archivo
 1. Alt + Selección con el ratón: selección en columna
 1. Alt + Mayús + Clic: multicursor
-1. Selección, cortar y pegar con multicursor
+1. Seleccionar, cortar y pegar con multicursor
 1. Alt + J: seleccionar mismo
 
 	
