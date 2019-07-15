@@ -44,6 +44,7 @@ Proyecto para ejemplificar un uso presto de Android Studio.
 1. Ctrl + Alt + T: Surround With...
 1. Plantillas con más variables
 
+
 ### Ejemplo práctico
-	
+
 1. ListActivity: uso de todo lo aprendido para trabajar con un RecyclerView.
