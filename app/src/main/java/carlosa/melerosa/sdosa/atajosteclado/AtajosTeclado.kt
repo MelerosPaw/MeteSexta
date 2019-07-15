@@ -6,6 +6,13 @@ package carlosa.melerosa.sdosa.atajosteclado
 
 
 
+// Modificar los atajos
+//      - "Clone caret above": Ctrl + Alt + ↑
+//      - "Clone caret below": Ctrl + Alt + ↓
+
+
+
+
 
 // Ctrl + Y: borrar línea
 // D1. Borra la siguiente línea
@@ -15,7 +22,7 @@ val unused: String = "No sirvo para nada"
 
 
 
-// Atajos de teclado: cómo configurar uno. Ctrl + Y -> Mayús + Retroceso
+
 
 
 
