@@ -115,3 +115,9 @@ fun yoCambioCosas() {
 class ActivitySinDeclarar: AppCompatActivity()
 
 
+
+// Extraer recurso String
+// E10. Coloca el cursor sobre el String, pulsa Alt + Intro y selecciona "Extract String resource"
+val estoDeberiaSerUnRecurso = "Soy un recurso; sácame de aquí"
+
+

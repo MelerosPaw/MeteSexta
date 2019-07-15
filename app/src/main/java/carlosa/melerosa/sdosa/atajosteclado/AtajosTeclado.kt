@@ -1,5 +1,7 @@
 package carlosa.melerosa.sdosa.atajosteclado
 
+import java.lang.StringBuilder
+
 
 // Cómo configurar un atajo de teclado
 // File -> Settings -> Keymap -> Doble clic sobre una acción -> Add Keyboard shortcut
@@ -7,8 +9,8 @@ package carlosa.melerosa.sdosa.atajosteclado
 
 
 // Modificar los atajos
-//      - "Clone caret above": Ctrl + Alt + ↑
-//      - "Clone caret below": Ctrl + Alt + ↓
+//   - "Clone caret above": Ctrl + Alt + ↑
+//   - "Clone caret below": Ctrl + Alt + ↓
 
 
 
@@ -54,6 +56,37 @@ val unused: String = "No sirvo para nada"
 
 
 
+
+
+
+
+// Ctrl + W y Ctrl + Mayñús + W: Expandir contraer selección
+// D5. Expande la selección hasta determinar dónde acaba cada condición y extrae cada bloque por separado
+// con Ctrl + Alt + V
+fun condicionesEnrevesadas() {
+
+    val a = 1
+    val b = 15
+    val concepto = false
+    val comprobacion = "Calle de la Piruleta"
+
+    if ((a > b && concepto == ((a + 10) == 12) || (comprobacion.isEmpty() && !concepto) ||
+                b > 50 && (comprobacion == "No" && concepto))) {
+
+        println("No entiendo cómo he podido llegar hasta esta línea.")
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 // Ctrl + D: Duplicar líneas
 // D5. Completa el else con "La condición no se cumple" duplicando la línea
 // y usando Ctrl + Alt + ↓
@@ -69,6 +102,11 @@ private fun completame(condition: Boolean) {
 
 
 
+
+
+
+
+
 // Ctrl + Q: ver definición funcional de un campo
 // D6. Consulta el KotlinDoc del método invocado
 private fun pasaDeMi() {
@@ -78,16 +116,31 @@ private fun pasaDeMi() {
 
 
 
-// Ctrl + P: ver tipado de un campo
-// D7. Consulta el tipo de entrada de los parámetros
+
+
+
+
+
+
+// Ctrl + P: ver parámetros de entrada.
+// D7. Coloca el cursor entre los paréntesis del método y pulsa Ctrl + P para ver los parámetros de entrada
 private fun consultaTipado() {
     metodoConSuKotlinDocMaravilloso(1, 4)
+
+
+    // D8. Comprueba los diferentes constructores de StringBuilder
+    StringBuilder()
 }
 
 
 
+
+
+
+
+
 // Ctrl Alt + → / ←: adelante, atrás
-// D8. Pulsa Hacia atrás y comprueba todas las ubicaciones en las que has estado
+// D9. Pulsa Hacia atrás y comprueba todas las ubicaciones en las que has estado
 
 
 
@@ -95,7 +148,7 @@ private fun consultaTipado() {
 
 
 // Ctrl + Mayus + E: archivos recientes
-// D9. Pulsa esta combinación para ver los últimos archivos editados.
+// D10. Pulsa esta combinación para ver los últimos archivos editados.
 
 
 
@@ -103,7 +156,7 @@ private fun consultaTipado() {
 
 
 // Alt + Izda / Dcha: cambiar de pestaña
-// D10. Abre más de un archivo y navega entre pestañas.
+// D11. Abre más de un archivo y navega entre pestañas.
 
 
 
@@ -137,7 +190,7 @@ private fun consultaTipado() {
  */
 
 // Crl + Alt + L: formatear código
-// D11. Selecciona el código y reformatéalo
+// D12. Selecciona el código y reformatéalo
 private fun metodoConSuKotlinDocMaravilloso(parametro1: Int, parametro2: Int): Boolean {
     if (parametro1 > parametro2) {
                     println("El primero es mayor que el segundo")
