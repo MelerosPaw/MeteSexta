@@ -13,16 +13,9 @@ package carlosa.melerosa.sdosa.atajosteclado
 
 
 
-
 // Ctrl + Y: borrar línea
 // D1. Borra la siguiente línea
 val unused: String = "No sirvo para nada"
-
-
-
-
-
-
 
 
 

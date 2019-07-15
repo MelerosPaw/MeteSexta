@@ -35,10 +35,10 @@ class MyListAdapter(val items: ArrayList<Animal>, val context: Context) : Recycl
         }
 
         if (items.get(position).specie != null) {
-            holder.tvAnimalSpecie.text = items.get(position).specie
-            holder.tvAnimalSpecie.visibility = View.VISIBLE
+            holder.tvAnimalPosition.text = items.get(position).position.toString()
+            holder.tvAnimalPosition.visibility = View.VISIBLE
         } else {
-            holder.tvAnimalSpecie.visibility = View.GONE
+            holder.tvAnimalPosition.visibility = View.GONE
         }
     }
 }
@@ -47,6 +47,6 @@ class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     // Holds the TextView that will add each animal to. useless comment to delete
     val viewRoot: ConstraintLayout = view.view_root
     val tvAnimalType: TextView = view.tv_animal_type
-    val tvAnimalSpecie: TextView = view.tv_animal_specie
+    val tvAnimalPosition: TextView = view.tv_animal_position
     val ivAnimal: ImageView = view.iv_animal
 }
