@@ -8,6 +8,11 @@ import android.support.v7.widget.LinearLayoutManager
 import carlosa.melerosa.sdosa.R
 import kotlinx.android.synthetic.main.activity_list.*
 
+
+
+// Ditto https://sourceforge.net/projects/ditto-cp/files/latest/download
+// String Manipulator -> Plug-in
+
 open class MyListActivity : AppCompatActivity() {
 
     val animals: ArrayList<Animal> = ArrayList()
