@@ -48,7 +48,8 @@ val unused: String = "No sirvo para nada"
 
 
 // Ctrl + D: Duplicar líneas
-// D5. Completa el else con "La condición no se cumple" y usando Ctrl + Alt + ↓
+// D5. Completa el else con "La condición no se cumple" duplicando la línea
+// y usando Ctrl + Alt + ↓
 private fun completame(condition: Boolean) {
     if (condition) {
         println("La condición se cumple")
