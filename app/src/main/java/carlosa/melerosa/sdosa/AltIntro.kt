@@ -48,12 +48,9 @@ fun podriaTenerUnWhen(valor: Enumerado) {
 // Implementar métodos de interfaz
 // E3. Coloca el cursor sobre el nombre de la clase y pulsa Alt + Intro para implementar
 // los métodos de la interfaz
-class Implementacion(): InterfazMaldita {
-    override fun metodoMaldito() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-}
+//class Implementacion(): InterfazMaldita {
+//
+//}
 
 
 
@@ -66,20 +63,18 @@ class Implementacion(): InterfazMaldita {
 // Implementar Parcelable
 // E4. Coloca el cursor sobre el nombre de la clase e implementa Parcelable
 // E5. Coloca el cursor sobre el nombre de la clase padre y sobrescribe todos los constructores de la clase
-private class EditTextTachable @JvmOverloads constructor(
-    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
-) : EditText(context, attrs, defStyleAttr) {
-
-
-
-
-
+//private class EditTextTachable: EditText {
+//
+//
+//
+//
+//
     // Suprimir advertencias
     // E6. Suprime la advertenca de "no usado"
-    fun imprimirTexto() {
-        println(text.toString())
-    }
-}
+//    fun imprimirTexto() {
+//        println(text.toString())
+//    }
+//}
 
 
 
@@ -96,7 +91,7 @@ fun <F> AppCompatActivity.getFragment(tag: String): F? {
 
 
 
-fun funcionDe1Parametro(unParametro: String, s: String) {
+fun funcionDe1Parametro(unParametro: String) {
 
 }
 
@@ -110,12 +105,17 @@ fun funcionQueNoDevuelveNada() { }
 fun yoCambioCosas() {
 
     // E8. Coloca el cursor sobre el segundo parámetro y añádelo a la signatura
-    funcionDe1Parametro("Lala", "Lala2")
+//    funcionDe1Parametro("Lala", "Lala2")
 
 
     // E9. Coloca el cursor sobre la función y cambia su tipo de retorno
-    val resultado: Unit = funcionQueNoDevuelveNada()
+//    val resultado: Double = funcionQueNoDevuelveNada()
 }
 
+
+// Declarar activity en Manifest
+// E9. Coloca el cursor sobre la advertencia, pulsa Alt + Intro y selecciona
+// "Add activity to manifest"
+class ActivitySinDeclarar: AppCompatActivity()
 
 
