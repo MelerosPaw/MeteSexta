@@ -111,4 +111,9 @@ fun yoCambioCosas() {
 }
 
 
+// Declarar activity en Manifest
+// E9. Coloca el cursor sobre la advertencia, pulsa Alt + Intro y selecciona
+// "Add activity to manifest"
+class ActivitySinDeclarar: AppCompatActivity()
+
 
