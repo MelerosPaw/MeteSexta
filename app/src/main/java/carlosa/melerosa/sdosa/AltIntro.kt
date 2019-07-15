@@ -1,10 +1,6 @@
 package carlosa.melerosa.sdosa
 
-import android.content.Context
 import android.support.v7.app.AppCompatActivity
-import android.util.AttributeSet
-import android.widget.EditText
-import carlosa.melerosa.sdosa.atajosteclado.InterfazMaldita
 
 enum class Enumerado {
     UNO, DOS, TRES, CUATRO, CINCO, SEIS
@@ -113,9 +109,28 @@ fun yoCambioCosas() {
 }
 
 
+
+
+
+
+
 // Declarar activity en Manifest
 // E9. Coloca el cursor sobre la advertencia, pulsa Alt + Intro y selecciona
 // "Add activity to manifest"
 class ActivitySinDeclarar: AppCompatActivity()
+
+
+
+
+
+
+
+
+
+
+
+// Extraer recurso String
+// E10. Coloca el cursor sobre el String, pulsa Alt + Intro y selecciona "Extract String resource"
+val estoDeberiaSerUnRecurso = "Soy un recurso; sácame de aquí"
 
 

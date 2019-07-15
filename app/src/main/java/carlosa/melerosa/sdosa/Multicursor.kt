@@ -69,7 +69,7 @@ class Multicursor {
 
 
 
-    // Alt + Selección con el ratón: selección en columna
+    // Alt + Selección con el ratón / Clone caret: selección en columna
     // A8. Selecciona todos los textos en columna y cámbialos
     val variable11: String = "Cambiame por otro texto"
     val variable12: String = "Cambiame por otro texto"
@@ -86,10 +86,13 @@ class Multicursor {
 
     // Alt + Mayús + Clic: multicursor
     // A9. Posiciona un cursor antes de cada "aquí" y conviértelos en "allí".
-    // A10. Prueba a pulsar Inicio, Fin y navegar con multicursor
+    // A10. Con multicursor muévete al inicio, al fin y palabra por palabra
     val variable18: String = "Quiero un cursor aquí"
     val variable19: String = "Otro aquí"
     val variable20: String = "Otro cursor por aquí"
+
+
+
 
 
 
@@ -109,6 +112,9 @@ class Multicursor {
 
 
 
+
+
+
     // Alt + J: seleccionar mismo
     // A12. Cambia todos los tipos a Int
     val variable25: String = "15"
@@ -116,6 +122,9 @@ class Multicursor {
     val vari27: String = "12323"
     val v28: String = "43"
     val va29: String = "500"
+
+
+
 
 
 
