@@ -73,7 +73,7 @@ private fun consultaTipado() {
 
 
 // Ctrl Alt + → / ←: adelante, atrás
-// D7. Pulsa Hacia atrás y comprueba todas las ubicaciones en las que has estado
+// D8. Pulsa Hacia atrás y comprueba todas las ubicaciones en las que has estado
 
 
 
@@ -81,7 +81,7 @@ private fun consultaTipado() {
 
 
 // Ctrl + Mayus + E: archivos recientes
-// D8. Pulsa esta combinación para ver los últimos archivos editados.
+// D9. Pulsa esta combinación para ver los últimos archivos editados.
 
 
 
@@ -89,7 +89,7 @@ private fun consultaTipado() {
 
 
 // Alt + Izda / Dcha: cambiar de pestaña
-// D9. Abre más de un archivo y navega entre pestañas.
+// D10. Abre más de un archivo y navega entre pestañas.
 
 
 
@@ -123,7 +123,7 @@ private fun consultaTipado() {
  */
 
 // Crl + Alt + L: formatear código
-// D10. Selecciona el código y reformatéalo
+// D11. Selecciona el código y reformatéalo
 private fun metodoConSuKotlinDocMaravilloso(parametro1: Int, parametro2: Int): Boolean {
     if (parametro1 > parametro2) {
                     println("El primero es mayor que el segundo")

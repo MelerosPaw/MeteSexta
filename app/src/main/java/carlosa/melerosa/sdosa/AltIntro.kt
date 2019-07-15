@@ -3,7 +3,6 @@ package carlosa.melerosa.sdosa
 import android.support.v7.app.AppCompatActivity
 import android.widget.EditText
 import carlosa.melerosa.sdosa.atajosteclado.InterfazMaldita
-import com.example.metesexta.atajosteclado.InterfazMaldita
 
 enum class Enumerado {
     UNO, DOS, TRES, CUATRO, CINCO, SEIS
