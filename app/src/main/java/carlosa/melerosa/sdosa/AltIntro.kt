@@ -18,6 +18,10 @@ fun completaElEnum(valor: Enumerado) {
     }
 }
 
+
+
+
+
 // De else a when
 // E2. Sitúate sobre el if y pulsa Alt + Intro para convertirlo en un when y viceversa
 fun podriaTenerUnWhen(valor: Enumerado) {
