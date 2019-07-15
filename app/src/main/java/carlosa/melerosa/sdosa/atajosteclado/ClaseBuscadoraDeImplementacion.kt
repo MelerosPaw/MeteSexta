@@ -1,6 +1,6 @@
 package carlosa.melerosa.sdosa.atajosteclado
 
-class ClaseQueBuscadoraDeImplementacion(val interfazMaldita: InterfazMaldita, val perdidaDeLaManoDeDios: InterfazPerdidaDeLaManoDeDios) {
+class ClaseBuscadoraDeImplementacion(val interfazMaldita: InterfazMaldita, val perdidaDeLaManoDeDios: InterfazPerdidaDeLaManoDeDios) {
 
 
  fun test(){
