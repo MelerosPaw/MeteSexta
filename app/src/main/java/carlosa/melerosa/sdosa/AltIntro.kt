@@ -46,9 +46,9 @@ fun podriaTenerUnWhen(valor: Enumerado) {
 // Implementar métodos de interfaz
 // E3. Coloca el cursor sobre el nombre de la clase y pulsa Alt + Intro para implementar
 // los métodos de la interfaz
-class Implementacion(): InterfazMaldita {
-
-}
+//class Implementacion(): InterfazMaldita {
+//
+//}
 
 
 
@@ -61,18 +61,18 @@ class Implementacion(): InterfazMaldita {
 // Implementar Parcelable
 // E4. Coloca el cursor sobre el nombre de la clase e implementa Parcelable
 // E5. Coloca el cursor sobre el nombre de la clase padre y sobrescribe todos los constructores de la clase
-private class EditTextTachable: EditText {
-
-
-
-
-
+//private class EditTextTachable: EditText {
+//
+//
+//
+//
+//
     // Suprimir advertencias
     // E6. Suprime la advertenca de "no usado"
-    fun imprimirTexto() {
-        println(text.toString())
-    }
-}
+//    fun imprimirTexto() {
+//        println(text.toString())
+//    }
+//}
 
 
 
@@ -103,11 +103,11 @@ fun funcionQueNoDevuelveNada() { }
 fun yoCambioCosas() {
 
     // E8. Coloca el cursor sobre el segundo parámetro y añádelo a la signatura
-    funcionDe1Parametro("Lala", "Lala2")
+//    funcionDe1Parametro("Lala", "Lala2")
 
 
     // E9. Coloca el cursor sobre la función y cambia su tipo de retorno
-    val resultado: Double = funcionQueNoDevuelveNada()
+//    val resultado: Double = funcionQueNoDevuelveNada()
 }
 
 
