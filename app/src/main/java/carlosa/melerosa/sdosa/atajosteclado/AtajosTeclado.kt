@@ -8,9 +8,17 @@ import java.lang.StringBuilder
 
 
 
+
+
+
+
 // Modificar los atajos
 //   - "Clone caret above": Ctrl + Alt + ↑
 //   - "Clone caret below": Ctrl + Alt + ↓
+
+
+
+
 
 
 
@@ -24,8 +32,16 @@ val unused: String = "No sirvo para nada"
 
 
 
+
+
+
+
 // Ctrl + Mayús + Alt + Arriba/Abajo: cambio siguiente, cambio anterior
 // D2. Realiza varios cambios a lo largo de este archivo y muévete entre ellos
+
+
+
+
 
 
 
@@ -45,6 +61,8 @@ fun quienImplementa() {
 
 
 
+
+
 // Ctrl + Mayús + E: Archivos editados recientemente
 // D4. Pulsa esta combinación y visualiza los últimos archivos modificados
 
@@ -57,7 +75,7 @@ fun quienImplementa() {
 
 
 
-// Ctrl + W y Ctrl + Mayñús + W: Expandir contraer selección
+// Ctrl + W y Ctrl + Mayús + W: Expandir contraer selección
 // D5. Expande la selección hasta determinar dónde acaba cada condición y extrae cada bloque por separado
 // con Ctrl + Alt + V
 fun condicionesEnrevesadas() {
@@ -121,7 +139,7 @@ private fun pasaDeMi() {
 
 // Ctrl + P: ver parámetros de entrada.
 // D7. Coloca el cursor entre los paréntesis del método y pulsa Ctrl + P para ver los parámetros de entrada
-private fun consultaTipado() {
+private fun consultaParametrosEntrada() {
     metodoConSuKotlinDocMaravilloso(1, 4)
 
 
