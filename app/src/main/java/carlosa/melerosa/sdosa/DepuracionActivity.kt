@@ -132,7 +132,7 @@ class DepuracionActivity: AppCompatActivity() {
 
 
     // Puntos de ruptura con condiciones
-    //  ccccccccccccccccccccccB8. Pon un punto de ruptura en la línea 104, pulsa el botón secundario sobre el punto de
+    // B8. Pon un punto de ruptura en la línea 104, pulsa el botón secundario sobre el punto de
     // ruptura y, dentro de "Condition" indica "index == 5". Comprueba que la ejecución solo se
     // detiene en el 5.
 
@@ -164,16 +164,20 @@ class DepuracionActivity: AppCompatActivity() {
     // - Vuelve a salir y pulsa "Terminate application" en el panel izquierdo de la pestaña "6: Logcat".
     // - Comprueba que el proceso está muerto en Logcat.
     // - Vuelve a la aplicación. Ahora el texto es el primero porque la aplicación ha muerto.
+
+
+
+
     // Si descomentas las líneas de abajo y repites la prueba, el texto se abrá restaurado porque
     // es persistido en el bundle a través de la muerte de la aplicación.
 
-    override fun onSaveInstanceState(outState: Bundle?) {
-        super.onSaveInstanceState(outState)
+//    override fun onSaveInstanceState(outState: Bundle?) {
+//        super.onSaveInstanceState(outState)
 //        outState?.putString(RESTORE_TEXTO_ACTUAL, textoActual)
-    }
+//    }
 
-    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
-        super.onRestoreInstanceState(savedInstanceState)
+//    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+//        super.onRestoreInstanceState(savedInstanceState)
 //        if (savedInstanceState != null) {
 //            val textoGuardado = savedInstanceState.getString(RESTORE_TEXTO_ACTUAL)
 //
@@ -182,5 +186,5 @@ class DepuracionActivity: AppCompatActivity() {
 //                cambiarTexto()
 //            }
 //        }
-    }
+//    }
 }
