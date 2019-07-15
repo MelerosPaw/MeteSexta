@@ -2,7 +2,22 @@ package carlosa.melerosa.sdosa
 
 class LiveTemplates {
 
-    /**OMG!!! Don't ever dare call this without a delay, or you'll die.*/
+    // Live Templates
+    // F1. File -> Settings -> Live Templates y añade una plantilla al grupo
+    // "Kotlin" para ejecutar un código con retraso, indicando el contexto Kotlin.
+
+
+
+
+
+
+
+
+
+
+
+
+    /** OMG!!! Don't ever dare call this without a delay of at least 500 milliseconds, or we'll die. */
     fun codigoMaligno(codigoInvocacion: String) {
 
         // Soy programador:
@@ -17,19 +32,6 @@ class LiveTemplates {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-    // Live Templates
-    // F1. File -> Settings -> Live Templates y añade una plantilla al grupo
-    // "Kotlin" para ejecutar un código con retraso, indicando el contexto Kotlin.
 
 
 
