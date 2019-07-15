@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_depuracion">
+        <item>Pues me han cambiado</item>
+        <item>Tengo un texto diferente</item>
+        <item>Otro texto</item>
+        <item>Y me siguen cambiando</item>
+        <item>¡No me vas a cambiar mas!</item>
+        <item>Yo no cambié, me cambiaron</item>
+        <item>Esta yegua no es mi vieja yegua gris</item>
+    </string-array>
+</resources>
