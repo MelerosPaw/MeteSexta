@@ -1,7 +1,11 @@
 package carlosa.melerosa.sdosa.atajosteclado
 
 
+// Cómo configurar un atajo de teclado
+// File -> Settings -> Keymap -> Doble clic sobre una acción -> Add Keyboard shortcut
+
 // Ctrl + Y: borrar línea
+
 // D1. Borra la siguiente línea
 val unused: String = "No sirvo para nada"
 
