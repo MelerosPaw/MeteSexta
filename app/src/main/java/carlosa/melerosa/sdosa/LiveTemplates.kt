@@ -121,7 +121,7 @@ class LiveTemplates {
 
     fun onCreate() {
         // "daggerInit"
-    //        carlosa.melerosa.sdosa.DIManager.inject(this)
+    //        carlosa.melerosa.sdosa.di.DIManager.inject(this)
     }
 
 

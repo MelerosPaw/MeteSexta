@@ -1,6 +1,6 @@
 package carlosa.melerosa.sdosa.atajosteclado
 
-class ClaseQueImplementa3 : InterfazPerdidaDeLaManoDeDios {
+class ClaseQueImplementa3 : InterfazDejadaDeLaManoDeDios {
 
-    override fun metodoDeInterfaz() {}
+    override fun metodoDejado() {}
 }

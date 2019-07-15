@@ -1,11 +1,22 @@
 package carlosa.melerosa.sdosa.atajosteclado
 
-class ClaseBuscadoraDeImplementacion(val interfazMaldita: InterfazMaldita, val perdidaDeLaManoDeDios: InterfazPerdidaDeLaManoDeDios) {
+import carlosa.melerosa.sdosa.di.DIManager
+import javax.inject.Inject
 
+class ClaseBuscadoraDeImplementacion {
 
- fun test(){
-     //Prueba la diferencia entre Ctrl + click en el método y Ctrl + Alt + B
-     interfazMaldita.metodoMaldito()
-     perdidaDeLaManoDeDios.metodoDeInterfaz()
- }
+    @Inject lateinit var interfazMaldita: InterfazMaldita
+    @Inject lateinit var dejadaDeLaManoDeDios: InterfazDejadaDeLaManoDeDios
+
+    init {
+        DIManager.getAppComponent().inject(this)
+    }
+
+    fun yoLlamoAMetodosDeInterfaz() {
+
+        // Prueba la diferencia entre Ctrl + Clic (ir a declaración/uso)
+        // y Ctrl + Alt + B (ir a implementación) en estos dos métodos
+        interfazMaldita.metodoMaldito()
+        dejadaDeLaManoDeDios.metodoDejado()
+    }
 }

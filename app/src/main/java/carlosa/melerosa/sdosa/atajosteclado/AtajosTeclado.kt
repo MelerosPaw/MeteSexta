@@ -39,8 +39,12 @@ val unused: String = "No sirvo para nada"
 
 
 
+// Ctrl + Clic/B: ir a declaración/usos
 // Ctrl + Alt + Clic/B: ir a implementación
-// D3. Abre "ClaseQueImplementa2" y pulsa
+// D3. Ve a la declaración del método "yoLlamoAMetodosDeInterfaz"
+fun quienImplementa() {
+    ClaseBuscadoraDeImplementacion().yoLlamoAMetodosDeInterfaz()
+}
 
 
 
