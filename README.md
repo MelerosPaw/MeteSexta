@@ -1,5 +1,5 @@
 # Mete Sexta
-Proyecto para ejemplificar un uso presto de Android Studio.
+Proyecto para ejemplificar un uso ágil de Android Studio.
 
 ## Pt. 1
 
