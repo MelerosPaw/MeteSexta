@@ -1,7 +1,5 @@
 package carlosa.melerosa.sdosa
 
-import com.google.gson.annotations.SerializedName
-
 class LiveTemplates {
 
     // Live Templates
