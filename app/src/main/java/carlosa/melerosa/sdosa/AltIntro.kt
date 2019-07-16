@@ -87,6 +87,25 @@ fun <F> AppCompatActivity.getFragment(tag: String): F? {
 
 
 
+// Suprimir la anotación de nulo
+fun CharSequence?.isNotEmpty() = !this.isNullOrEmpty()
+
+fun estoNoPasaCodeReview(palabra: String?) {
+    if (palabra.isNotEmpty()) {
+      estoNoaceptaNulos(palabra )
+    }
+
+fun estoNoAceptaNulos(palabra: String) {
+}
+    
+    
+    
+
+
+
+
+
+
 fun funcionDe1Parametro(unParametro: String) {
 
 }
