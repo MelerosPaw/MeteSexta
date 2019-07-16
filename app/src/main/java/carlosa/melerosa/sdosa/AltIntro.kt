@@ -92,7 +92,7 @@ fun CharSequence?.isNotEmpty() = !this.isNullOrEmpty()
 
 fun estoNoPasaCodeReview(palabra: String?) {
     if (palabra.isNotEmpty()) {
-      estoNoaceptaNulos(palabra )
+      estoNoAceptaNulos(palabra )
     }
 
 fun estoNoAceptaNulos(palabra: String) {
